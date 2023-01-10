@@ -7,7 +7,7 @@ save_diagrams: true
 
 # Part 1: Reproducibility
 
-# I. Depth
+# Depth
 
 ## Why reproducing something _always_ is impossible
 
@@ -29,7 +29,7 @@ We need to interpret messages. The action depends on the interpreter as much as 
 
 ##
 
-![Nasa's Golden Record](../The_Sounds_of_Earth.jpg)
+![Nasa's Golden Record](./The_Sounds_of_Earth.jpg)
 
 ## now programming: What happens here?
 
@@ -125,7 +125,7 @@ We need
 4. OS kernel (optional)
 5. hardware (optional)
 
-# II. Hermeticity
+# Hermeticity
 
 ## Why reproducing something _most of the time_ is hard
 
@@ -142,7 +142,7 @@ We need
 
 ## This is not unlike lab experiments
 
-# III. Conclusions
+# Conclusions
 
 ##
 
@@ -180,11 +180,11 @@ to build and run it.
 
 ## Example JupyterWith graph
 
-![Jupyter graph](../jupyter-graph.png)
+![Jupyter graph](./jupyter-graph.png)
 
 ## Example Nixpkgs graph
 
-![Nixpkgs graph](../nixpkgs-graph.png)
+![Nixpkgs graph](./nixpkgs-graph.png)
 
 ## Show file to generate this presentation
 
