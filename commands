@@ -8,3 +8,5 @@ which python
 
 
 nix-store -q --graph $(nix build nixpkgs#python3 --print-out-paths) | dot -Tpng -o graph.png
+
+nix-store -q --graph $(nix build nixpkgs#inkscape --print-out-paths) | dot -Tpng -o graph.png

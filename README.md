@@ -7,9 +7,7 @@ save_diagrams: true
 
 # Part 1: Reproducibility
 
-# Depth
-
-## Why reproducing something _always_ is impossible
+# Depth, or why reproducing something _always_ is impossible
 
 ## "Could you pass me the salt?"
 
@@ -79,11 +77,9 @@ We need
 7. ship exact description of the physical laws ...
 8. ...
 
-## Conclusion: Cut the chain!
+## Cut the chain! But where?
 
-... but where?
-
-# Example
+## Example
 
 ## Stability
 
@@ -125,9 +121,7 @@ We need
 4. OS kernel (optional)
 5. hardware (optional)
 
-# Hermeticity
-
-## Why reproducing something _most of the time_ is hard
+# Hermeticity, or why reproducing something _most of the time_ is hard
 
 ## Programs interact with their environment (Side Effects)
 
