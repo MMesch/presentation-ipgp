@@ -1,0 +1,10 @@
+nix shell nixpkgs#python3
+which python
+ldd $(which python)
+
+
+nix shell github:nixos/nixpkgs/nixos-20.03#python3
+which python
+
+
+nix-store -q --graph $(nix build nixpkgs#python3 --print-out-paths) | dot -Tpng -o graph.png
